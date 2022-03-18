@@ -9,7 +9,7 @@ See the [project page](https://github.meunierkevin.com/jquery-serialtip/) for a 
 
 
 ## Compatibility
-jQuery serialtip has been tested in: IE, Edge, Chrome, Firefox, and Safari.
+jQuery serialtip has been tested in: IE, Edge, Chrome (desktop and mobile), Firefox (desktop and mobile), and Safari (desktop and mobile).
 
 
 ## Self-Hosted
