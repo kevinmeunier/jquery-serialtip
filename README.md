@@ -5,7 +5,7 @@ The tooltip can be used to provide additional information or display a dropdown 
 
 
 ## Demonstration
-See the [project page](https://github.meunierkevin.com/jquery-serialtip/) for a demonstration. The plugin can be also seen on [meunierkevin.com](https://www.meunierkevin.com).
+See the [project page](https://github.meunierkevin.com/jquery-serialtip/) for a demonstration.
 
 
 ## Compatibility
