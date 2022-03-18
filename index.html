@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://github.meunierkevin.com/assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="https://github.meunierkevin.com/assets/css/site-all.css" rel="stylesheet">
+<script src="https://github.meunierkevin.com/assets/js/jquery.min.js"></script>
+<script src="https://github.meunierkevin.com/assets/js/site-all.js"></script>
+<title>jQuery serialtip — Meunier Kévin</title>
+</head>
+<body>
+
+<script>writeHeader('serialtip');</script>
+
+<div id="section-demonstration-html">
+  <p>The tooltip can be used to provide additional information such as the <span class="btn-text" data-serialtip="example-1">customer number</span>. The displayed box can be removed by clicking on the close icon, or anywhere outside the box.</p>
+  <div data-serialtip-target="example-1" class="serialtip-default">
+    <span class="serialtip-close"></span>
+    <h5 class="serialtip-title">Customer number</h5>
+    <p>Vivamus eget nibh orci. Leo sed velit fringilla ultrices. Donec feugiat bibendum dignissim. Sed lacinia mi vel leo facilisis quis varius felis ultrices.</p>
+  </div>
+</div>
+<div id="section-demonstration-js">
+  <script src="dist/jquery.serialtip.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // jquery.serialtip initialisation
+    $('[data-serialtip]').serialtip();
+  });
+  </script>
+</div>
+<div id="section-demonstration-css">
+  <style type="text/css">
+  /* JavaScript: serialtip */
+  [data-serialtip-target]{display:none;position:absolute;z-index:1001;max-width:300px;margin:15px;}
+  [data-serialtip-target].is-alignment-top{margin-top:0;}
+  [data-serialtip-target].is-alignment-right{margin-right:0;}
+  [data-serialtip-target].is-alignment-bottom{margin-bottom:0;}
+  [data-serialtip-target].is-alignment-left{margin-left:0;}
+  [data-serialtip-target] .serialtip-title{margin-bottom:15px;font-size:18px;color:#000;font-weight:400;}
+  [data-serialtip-target] .serialtip-close{position:absolute;top:0;right:0;display:flex;align-items:center;justify-content:center;width:50px;height:50px;margin-top:5px;cursor:pointer;opacity:0.35;transition:300ms;}
+  [data-serialtip-target] .serialtip-close:before{content:'+';font-size:30px;transform:rotate(45deg);}
+  [data-serialtip-target] .serialtip-close:hover{opacity:1;}
+
+  .serialtip-default{padding:30px;background-color:#fff;box-shadow:5px 5px 35px 5px rgba(0, 0, 0, .1);font-size:14px;color:#666;}
+  .serialtip-default:before{content:'';position:absolute;width:0;height:0;border:solid transparent;}
+  .serialtip-default.is-placement-bottom:before{bottom:100%;left:50%;margin-left:-6px;border-width:0 6px 6px 6px;border-bottom-color:#fff;}
+
+  /* Demo styles */
+  .btn-text{border-bottom:1px dashed rgba(255, 255, 255, .25);cursor:pointer;transition:300ms;}
+  .btn-text:hover{border-color:rgba(255, 255, 255, .5);}
+  .btn-text.is-active{border-color:#fff;}
+  </style>
+</div>
+
+<script>writeFooter('serialtip');</script>
+
+</body>
+</html>
