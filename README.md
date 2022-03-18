@@ -16,7 +16,7 @@ jQuery serialtip has been tested in: IE, Edge, Chrome (mobile included), Firefox
 [Download](https://github.com/kevinmeunier/jquery-serialtip/archive/master.zip) and save one of two available files to include serialtip to your page, either the [development](https://github.com/kevinmeunier/jquery-serialtip/blob/main/dist/jquery.serialtip.js) or the [minified](https://github.com/kevinmeunier/jquery-serialtip/blob/main/dist/jquery.serialtip.min.js) version. Also, you can visit the [project page](https://github.meunierkevin.com/jquery-serialtip/) to copy what you need.
 ```HTML
 <script src="jquery.serialtip.min.js" type="text/javascript"></script>
-<link href="jquery.serialtip.css" type="text/css">
+<link href="jquery.serialtip.css" type="stylesheet">
 ```
 Due to the lightweight CSS code, it's recommended to copy/paste the CSS code into your general stylesheet.
 
