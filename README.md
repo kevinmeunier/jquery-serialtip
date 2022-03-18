@@ -18,7 +18,7 @@ jQuery serialtip has been tested in: IE, Edge, Chrome (mobile included), Firefox
 <script src="jquery.serialtip.min.js" type="text/javascript"></script>
 <link href="jquery.serialtip.css" type="text/css">
 ```
-Due to the short length of the CSS code, it's highly recommended to copy/paste the CSS code into your general stylesheet.
+Due to the lightweight CSS code, it's recommended to copy/paste the CSS code into your general stylesheet.
 
 Make sure [jQuery](http://jquery.com) is properly loaded before using jQuery serialtip. 
 
